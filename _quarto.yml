@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Statistical Inference"
+  author: "Momenul Haque Mondol"
+  date: "today"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
